@@ -1,0 +1,33 @@
+[
+    {
+        "id": 2001,
+        "name": "Sushi",
+        "providerName": "Sushi Top",
+        "imageName": "sushi"
+    },
+    {
+        "id": 2002,
+        "name": "Rolls",
+        "providerName": "Sushi Top",
+        "imageName": "rolls"
+    },
+    {
+        "id": 2003,
+        "name": "Pizza",
+        "providerName": "Sushi Top",
+        "imageName": "pizza"
+    },
+    {
+        "id": 2004,
+        "name": "Drinks",
+        "providerName": "Sushi Top",
+        "imageName": "drinks"
+    },
+    {
+        "id": 2005,
+        "name": "Desserts",
+        "providerName": "Sushi Top",
+        "imageName": "desserts"
+    },
+]
+

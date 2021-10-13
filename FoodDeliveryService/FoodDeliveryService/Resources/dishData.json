@@ -1,0 +1,124 @@
+[
+    {
+        "id": 3001,
+        "name": "Аляска",
+        "imageName": "Аляска",
+        "listOfDishesName" : "Rolls",
+        "price": 325,
+        "isHot": false
+    },
+    {
+        "id": 3002,
+        "name": "Италия",
+        "imageName": "Италия",
+        "listOfDishesName" : "Rolls",
+        "price": 275,
+        "isHot": false
+    },
+    {
+        "id": 3003,
+        "name": "Сливочный лосось",
+        "imageName": "Сливочный лосось",
+        "listOfDishesName" : "Rolls",
+        "price": 365,
+        "isHot": false
+    },
+    {
+        "id": 3004,
+        "name": "Хотатте спайс гункан",
+        "imageName": "Хотатте спайс гункан",
+        "listOfDishesName" : "Sushi",
+        "price": 70,
+        "isHot": false
+    },
+    {
+        "id": 3005,
+        "name": "Эби спайс гункан",
+        "imageName": "Эби спайс гункан",
+        "listOfDishesName" : "Sushi",
+        "price": 70,
+        "isHot": false
+    },
+    {
+        "id": 3006,
+        "name": "Крем суши с лососем",
+        "imageName": "Крем суши с лососем",
+        "listOfDishesName" : "Sushi",
+        "price": 65,
+        "isHot": false
+    },
+    {
+        "id": 3007,
+        "name": "Шаурма",
+        "imageName": "Шаурма",
+        "listOfDishesName" : "Pizza",
+        "price": 325,
+        "isHot": true
+    },
+    {
+        "id": 3008,
+        "name": "Грибная",
+        "imageName": "Грибная",
+        "listOfDishesName" : "Pizza",
+        "price": 475,
+        "isHot": true
+    },
+    {
+        "id": 3009,
+        "name": "Пепперони",
+        "imageName": "Пепперони",
+        "listOfDishesName" : "Pizza",
+        "price": 450,
+        "isHot": true
+    },
+    {
+        "id": 3010,
+        "name": "Морс клюквенный",
+        "imageName": "Морс клюквенный",
+        "listOfDishesName" : "Drinks",
+        "price": 50,
+        "isHot": false
+    },
+    {
+        "id": 3011,
+        "name": "Морс облепиховый",
+        "imageName": "Морс облепиховый",
+        "listOfDishesName" : "Drinks",
+        "price": 50,
+        "isHot": false
+    },
+    {
+        "id": 3012,
+        "name": "Coca-cola",
+        "imageName": "Coca-cola",
+        "listOfDishesName" : "Drinks",
+        "price": 65,
+        "isHot": false
+    },
+    {
+        "id": 3013,
+        "name": "Донат шоколадный",
+        "imageName": "Донат шоколадный",
+        "listOfDishesName" : "Desserts",
+        "price": 80,
+        "isHot": false
+    },
+    {
+        "id": 3014,
+        "name": "Донат клубничный",
+        "imageName": "Донат клубничный",
+        "listOfDishesName" : "Desserts",
+        "price": 80,
+        "isHot": false
+    },
+    {
+        "id": 3015,
+        "name": "Тирамису",
+        "imageName": "Тирамису",
+        "listOfDishesName" : "Desserts",
+        "price": 130,
+        "isHot": false
+    },
+]
+ 
+ 

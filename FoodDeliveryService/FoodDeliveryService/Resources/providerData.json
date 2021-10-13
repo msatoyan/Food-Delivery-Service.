@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1001,
+        "name": "Sushi Top",
+        "imageName": "sushiTop",
+        "phone" : "2000868",
+        "email" : "same@mail.com",
+        "isFavorite": false,
+        "website" : "samesite.com",
+        "rating" : 4.7
+    },
+    {
+        "id": 1002,
+        "name": "Big Dog",
+        "imageName": "bigDog",
+        "phone" : "2000868",
+        "email" : "same@mail.com",
+        "isFavorite": false,
+        "website" : "samesite.com",
+        "rating" : 4.7
+    },
+    {
+        "id": 1003,
+        "name": "Хочу Мясо",
+        "imageName": "xочуМясо",
+        "phone" : "2000868",
+        "email" : "same@mail.com",
+        "isFavorite": false,
+        "website" : "samesite.com",
+        "rating" : 4.7
+    },
+    {
+        "id": 1004,
+        "name": "Gyros Original",
+        "imageName": "gyrosOriginal",
+        "phone" : "2000868",
+        "email" : "same@mail.com",
+        "isFavorite": true,
+        "website" : "samesite.com",
+        "rating" : 4.7
+    },
+    {
+        "id": 1005,
+        "name": "Sapore Italiano",
+        "imageName": "saporeItaliano",
+        "phone" : "2000868",
+        "email" : "same@mail.com",
+        "isFavorite": true,
+        "website" : "samesite.com",
+        "rating" : 4.7
+    }
+]

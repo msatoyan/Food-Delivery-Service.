@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25A0FB0523A6539000B98BC9 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A0FB0423A6539000B98BC9 /* UserData.swift */; };
+		25A0FB0723A65C3E00B98BC9 /* ListofDishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A0FB0623A65C3E00B98BC9 /* ListofDishes.swift */; };
+		25A0FB0923A65DFE00B98BC9 /* listOfDishesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 25A0FB0823A65DFE00B98BC9 /* listOfDishesData.json */; };
+		25A0FB1023A6632F00B98BC9 /* pizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A0FB0B23A6632F00B98BC9 /* pizza.jpg */; };
+		25A0FB1123A6632F00B98BC9 /* desserts.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A0FB0C23A6632F00B98BC9 /* desserts.jpg */; };
+		25A0FB1223A6632F00B98BC9 /* drinks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A0FB0D23A6632F00B98BC9 /* drinks.jpg */; };
+		25A0FB1323A6632F00B98BC9 /* rolls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A0FB0E23A6632F00B98BC9 /* rolls.jpg */; };
+		25A0FB1423A6632F00B98BC9 /* sushi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A0FB0F23A6632F00B98BC9 /* sushi.jpg */; };
+		25A0FB1723A6650A00B98BC9 /* ListOfDishesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A0FB1623A6650A00B98BC9 /* ListOfDishesRow.swift */; };
+		25A0FB1D23A6684A00B98BC9 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A0FB1C23A6684A00B98BC9 /* Dish.swift */; };
+		25A0FB1F23A6734700B98BC9 /* dishData.json in Resources */ = {isa = PBXBuildFile; fileRef = 25A0FB1E23A6734700B98BC9 /* dishData.json */; };
+		25A0FB3623A67AC300B98BC9 /* Морс клюквенный.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A0FB2723A67AC300B98BC9 /* Морс клюквенный.jpg */; };
+		25A0FB3723A67AC300B98BC9 /* Грибная.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A0FB2823A67AC300B98BC9 /* Грибная.jpg */; };
+		25A0FB3823A67AC300B98BC9 /* Донат шоколадный.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A0FB2923A67AC300B98BC9 /* Донат шоколадный.jpg */; };
+		25A0FB3A23A67AC300B98BC9 /* Эби спайс гункан.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A0FB2B23A67AC300B98BC9 /* Эби спайс гункан.jpg */; };
+		25A0FB3B23A67AC300B98BC9 /* Донат клубничный.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A0FB2C23A67AC300B98BC9 /* Донат клубничный.jpg */; };
+		25A0FB3C23A67AC300B98BC9 /* Тирамису.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A0FB2D23A67AC300B98BC9 /* Тирамису.jpg */; };
+		25A0FB3D23A67AC300B98BC9 /* Крем суши с лососем.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A0FB2E23A67AC300B98BC9 /* Крем суши с лососем.jpg */; };
+		25A0FB3E23A67AC300B98BC9 /* Пепперони.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A0FB2F23A67AC300B98BC9 /* Пепперони.jpg */; };
+		25A0FB4123A67AC300B98BC9 /* Шаурма.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A0FB3223A67AC300B98BC9 /* Шаурма.jpg */; };
+		25A0FB4223A67AC300B98BC9 /* Хотатте спайс гункан.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A0FB3323A67AC300B98BC9 /* Хотатте спайс гункан.jpg */; };
+		25A0FB4323A67AC300B98BC9 /* Морс облепиховый.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A0FB3423A67AC300B98BC9 /* Морс облепиховый.jpg */; };
+		25A0FB4423A67AC300B98BC9 /* Coca-cola.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A0FB3523A67AC300B98BC9 /* Coca-cola.jpg */; };
+		25A0FB4623A68B3800B98BC9 /* DishList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A0FB4523A68B3800B98BC9 /* DishList.swift */; };
+		25A0FB4823A6900E00B98BC9 /* DishDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A0FB4723A6900E00B98BC9 /* DishDetail.swift */; };
+		25A0FB4A23A6913E00B98BC9 /* DishRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A0FB4923A6913E00B98BC9 /* DishRow.swift */; };
+		25A0FB4E23A69AA000B98BC9 /* Италия.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A0FB4B23A69A9F00B98BC9 /* Италия.jpg */; };
+		25A0FB4F23A69AA000B98BC9 /* Сливочный лосось.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A0FB4C23A69A9F00B98BC9 /* Сливочный лосось.jpg */; };
+		25A0FB5023A69AA000B98BC9 /* Аляска.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A0FB4D23A69AA000B98BC9 /* Аляска.jpg */; };
+		25A0FB5423A6E95B00B98BC9 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A0FB5323A6E95B00B98BC9 /* ProfileHost.swift */; };
+		25A0FB5823A6EA6700B98BC9 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A0FB5723A6EA6700B98BC9 /* Profile.swift */; };
+		25A0FB5A23A6EC0A00B98BC9 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A0FB5923A6EC0A00B98BC9 /* ProfileSummary.swift */; };
+		25A0FB5C23A6EF2200B98BC9 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A0FB5B23A6EF2200B98BC9 /* ProfileEditor.swift */; };
+		25A0FB6123A7810600B98BC9 /* CommentsHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A0FB6023A7810600B98BC9 /* CommentsHost.swift */; };
+		25A0FB6A23A9604F00B98BC9 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A0FB6923A9604F00B98BC9 /* AppView.swift */; };
+		25A0FB6C23A9701800B98BC9 /* CheckOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A0FB6B23A9701700B98BC9 /* CheckOut.swift */; };
+		25A0FB6E23A9AC3300B98BC9 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A0FB6D23A9AC3300B98BC9 /* OrderView.swift */; };
+		25A0FB7023A9BB9500B98BC9 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A0FB6F23A9BB9500B98BC9 /* Comment.swift */; };
+		25B74D6023A5BDFE00E5B591 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B74D5F23A5BDFE00E5B591 /* AppDelegate.swift */; };
+		25B74D6223A5BDFE00E5B591 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B74D6123A5BDFE00E5B591 /* SceneDelegate.swift */; };
+		25B74D6423A5BDFE00E5B591 /* ProviderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B74D6323A5BDFE00E5B591 /* ProviderDetail.swift */; };
+		25B74D6623A5BE0000E5B591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25B74D6523A5BE0000E5B591 /* Assets.xcassets */; };
+		25B74D6923A5BE0000E5B591 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25B74D6823A5BE0000E5B591 /* Preview Assets.xcassets */; };
+		25B74D6C23A5BE0000E5B591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B74D6A23A5BE0000E5B591 /* LaunchScreen.storyboard */; };
+		25B74D7823A5D7BF00E5B591 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B74D7723A5D7BF00E5B591 /* CircleImage.swift */; };
+		25B74D8023A5E3EE00E5B591 /* providerData.json in Resources */ = {isa = PBXBuildFile; fileRef = 25B74D7F23A5E3EE00E5B591 /* providerData.json */; };
+		25B74D8223A5E5EB00E5B591 /* ProviderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B74D8123A5E5EB00E5B591 /* ProviderRow.swift */; };
+		25B74D8623A5F20000E5B591 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B74D8523A5F20000E5B591 /* Provider.swift */; };
+		25B74D8823A5F28900E5B591 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B74D8723A5F28900E5B591 /* Data.swift */; };
+		25B74D9423A5FC1600E5B591 /* ProviderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B74D9323A5FC1600E5B591 /* ProviderList.swift */; };
+		25B74D9A23A60D8300E5B591 /* gyrosOriginal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25B74D9523A60D8200E5B591 /* gyrosOriginal.jpg */; };
+		25B74D9B23A60D8300E5B591 /* bigDog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25B74D9623A60D8200E5B591 /* bigDog.jpg */; };
+		25B74D9C23A60D8300E5B591 /* saporeItaliano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25B74D9723A60D8200E5B591 /* saporeItaliano.jpg */; };
+		25B74D9D23A60D8300E5B591 /* sushiTop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25B74D9823A60D8200E5B591 /* sushiTop.jpg */; };
+		25B74D9E23A60D8300E5B591 /* xочуМясо.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25B74D9923A60D8300E5B591 /* xочуМясо.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25A0FB0423A6539000B98BC9 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		25A0FB0623A65C3E00B98BC9 /* ListofDishes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListofDishes.swift; sourceTree = "<group>"; };
+		25A0FB0823A65DFE00B98BC9 /* listOfDishesData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = listOfDishesData.json; sourceTree = "<group>"; };
+		25A0FB0B23A6632F00B98BC9 /* pizza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pizza.jpg; sourceTree = "<group>"; };
+		25A0FB0C23A6632F00B98BC9 /* desserts.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = desserts.jpg; sourceTree = "<group>"; };
+		25A0FB0D23A6632F00B98BC9 /* drinks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drinks.jpg; sourceTree = "<group>"; };
+		25A0FB0E23A6632F00B98BC9 /* rolls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rolls.jpg; sourceTree = "<group>"; };
+		25A0FB0F23A6632F00B98BC9 /* sushi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sushi.jpg; sourceTree = "<group>"; };
+		25A0FB1623A6650A00B98BC9 /* ListOfDishesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfDishesRow.swift; sourceTree = "<group>"; };
+		25A0FB1C23A6684A00B98BC9 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		25A0FB1E23A6734700B98BC9 /* dishData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dishData.json; sourceTree = "<group>"; };
+		25A0FB2723A67AC300B98BC9 /* Морс клюквенный.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Морс клюквенный.jpg"; sourceTree = "<group>"; };
+		25A0FB2823A67AC300B98BC9 /* Грибная.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Грибная.jpg"; sourceTree = "<group>"; };
+		25A0FB2923A67AC300B98BC9 /* Донат шоколадный.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Донат шоколадный.jpg"; sourceTree = "<group>"; };
+		25A0FB2B23A67AC300B98BC9 /* Эби спайс гункан.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Эби спайс гункан.jpg"; sourceTree = "<group>"; };
+		25A0FB2C23A67AC300B98BC9 /* Донат клубничный.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Донат клубничный.jpg"; sourceTree = "<group>"; };
+		25A0FB2D23A67AC300B98BC9 /* Тирамису.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Тирамису.jpg"; sourceTree = "<group>"; };
+		25A0FB2E23A67AC300B98BC9 /* Крем суши с лососем.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Крем суши с лососем.jpg"; sourceTree = "<group>"; };
+		25A0FB2F23A67AC300B98BC9 /* Пепперони.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Пепперони.jpg"; sourceTree = "<group>"; };
+		25A0FB3223A67AC300B98BC9 /* Шаурма.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Шаурма.jpg"; sourceTree = "<group>"; };
+		25A0FB3323A67AC300B98BC9 /* Хотатте спайс гункан.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Хотатте спайс гункан.jpg"; sourceTree = "<group>"; };
+		25A0FB3423A67AC300B98BC9 /* Морс облепиховый.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Морс облепиховый.jpg"; sourceTree = "<group>"; };
+		25A0FB3523A67AC300B98BC9 /* Coca-cola.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Coca-cola.jpg"; sourceTree = "<group>"; };
+		25A0FB4523A68B3800B98BC9 /* DishList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishList.swift; sourceTree = "<group>"; };
+		25A0FB4723A6900E00B98BC9 /* DishDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDetail.swift; sourceTree = "<group>"; };
+		25A0FB4923A6913E00B98BC9 /* DishRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishRow.swift; sourceTree = "<group>"; };
+		25A0FB4B23A69A9F00B98BC9 /* Италия.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Италия.jpg"; sourceTree = "<group>"; };
+		25A0FB4C23A69A9F00B98BC9 /* Сливочный лосось.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Сливочный лосось.jpg"; sourceTree = "<group>"; };
+		25A0FB4D23A69AA000B98BC9 /* Аляска.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Аляска.jpg"; sourceTree = "<group>"; };
+		25A0FB5323A6E95B00B98BC9 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		25A0FB5723A6EA6700B98BC9 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		25A0FB5923A6EC0A00B98BC9 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		25A0FB5B23A6EF2200B98BC9 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		25A0FB6023A7810600B98BC9 /* CommentsHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsHost.swift; sourceTree = "<group>"; };
+		25A0FB6923A9604F00B98BC9 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		25A0FB6B23A9701700B98BC9 /* CheckOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOut.swift; sourceTree = "<group>"; };
+		25A0FB6D23A9AC3300B98BC9 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		25A0FB6F23A9BB9500B98BC9 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		25B74D5C23A5BDFE00E5B591 /* FoodDeliveryService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryService.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B74D5F23A5BDFE00E5B591 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25B74D6123A5BDFE00E5B591 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		25B74D6323A5BDFE00E5B591 /* ProviderDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderDetail.swift; sourceTree = "<group>"; };
+		25B74D6523A5BE0000E5B591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25B74D6823A5BE0000E5B591 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		25B74D6B23A5BE0000E5B591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25B74D6D23A5BE0000E5B591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25B74D7723A5D7BF00E5B591 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		25B74D7F23A5E3EE00E5B591 /* providerData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = providerData.json; sourceTree = "<group>"; };
+		25B74D8123A5E5EB00E5B591 /* ProviderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderRow.swift; sourceTree = "<group>"; };
+		25B74D8523A5F20000E5B591 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		25B74D8723A5F28900E5B591 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		25B74D9323A5FC1600E5B591 /* ProviderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderList.swift; sourceTree = "<group>"; };
+		25B74D9523A60D8200E5B591 /* gyrosOriginal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gyrosOriginal.jpg; sourceTree = "<group>"; };
+		25B74D9623A60D8200E5B591 /* bigDog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bigDog.jpg; sourceTree = "<group>"; };
+		25B74D9723A60D8200E5B591 /* saporeItaliano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saporeItaliano.jpg; sourceTree = "<group>"; };
+		25B74D9823A60D8200E5B591 /* sushiTop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sushiTop.jpg; sourceTree = "<group>"; };
+		25B74D9923A60D8300E5B591 /* xочуМясо.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "xочуМясо.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25B74D5923A5BDFE00E5B591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25A0FB0A23A6628A00B98BC9 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				25B74D9623A60D8200E5B591 /* bigDog.jpg */,
+				25B74D9523A60D8200E5B591 /* gyrosOriginal.jpg */,
+				25B74D9723A60D8200E5B591 /* saporeItaliano.jpg */,
+				25B74D9823A60D8200E5B591 /* sushiTop.jpg */,
+				25B74D9923A60D8300E5B591 /* xочуМясо.jpg */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		25A0FB1523A6634400B98BC9 /* ListOfDishes */ = {
+			isa = PBXGroup;
+			children = (
+				25A0FB0C23A6632F00B98BC9 /* desserts.jpg */,
+				25A0FB0D23A6632F00B98BC9 /* drinks.jpg */,
+				25A0FB0B23A6632F00B98BC9 /* pizza.jpg */,
+				25A0FB0E23A6632F00B98BC9 /* rolls.jpg */,
+				25A0FB0F23A6632F00B98BC9 /* sushi.jpg */,
+			);
+			path = ListOfDishes;
+			sourceTree = "<group>";
+		};
+		25A0FB2123A6759D00B98BC9 /* Gyros Original */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Gyros Original";
+			sourceTree = "<group>";
+		};
+		25A0FB2323A675BE00B98BC9 /* Sushi Top */ = {
+			isa = PBXGroup;
+			children = (
+				25A0FB2823A67AC300B98BC9 /* Грибная.jpg */,
+				25A0FB2C23A67AC300B98BC9 /* Донат клубничный.jpg */,
+				25A0FB2923A67AC300B98BC9 /* Донат шоколадный.jpg */,
+				25A0FB2E23A67AC300B98BC9 /* Крем суши с лососем.jpg */,
+				25A0FB2723A67AC300B98BC9 /* Морс клюквенный.jpg */,
+				25A0FB3423A67AC300B98BC9 /* Морс облепиховый.jpg */,
+				25A0FB4D23A69AA000B98BC9 /* Аляска.jpg */,
+				25A0FB4B23A69A9F00B98BC9 /* Италия.jpg */,
+				25A0FB4C23A69A9F00B98BC9 /* Сливочный лосось.jpg */,
+				25A0FB2F23A67AC300B98BC9 /* Пепперони.jpg */,
+				25A0FB2D23A67AC300B98BC9 /* Тирамису.jpg */,
+				25A0FB3323A67AC300B98BC9 /* Хотатте спайс гункан.jpg */,
+				25A0FB3223A67AC300B98BC9 /* Шаурма.jpg */,
+				25A0FB2B23A67AC300B98BC9 /* Эби спайс гункан.jpg */,
+				25A0FB3523A67AC300B98BC9 /* Coca-cola.jpg */,
+			);
+			path = "Sushi Top";
+			sourceTree = "<group>";
+		};
+		25A0FB2423A675C200B98BC9 /* Хочу Мясо */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Хочу Мясо";
+			sourceTree = "<group>";
+		};
+		25A0FB2523A675C400B98BC9 /* Big Dog */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Big Dog";
+			sourceTree = "<group>";
+		};
+		25A0FB2623A675C800B98BC9 /* Sapore Italiano */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Sapore Italiano";
+			sourceTree = "<group>";
+		};
+		25A0FB5223A6E93900B98BC9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				25A0FB5323A6E95B00B98BC9 /* ProfileHost.swift */,
+				25A0FB5923A6EC0A00B98BC9 /* ProfileSummary.swift */,
+				25A0FB5723A6EA6700B98BC9 /* Profile.swift */,
+				25A0FB5B23A6EF2200B98BC9 /* ProfileEditor.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		25A0FB5F23A780AB00B98BC9 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				25A0FB6023A7810600B98BC9 /* CommentsHost.swift */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		25B74D5323A5BDFE00E5B591 = {
+			isa = PBXGroup;
+			children = (
+				25B74D5E23A5BDFE00E5B591 /* FoodDeliveryService */,
+				25B74D5D23A5BDFE00E5B591 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25B74D5D23A5BDFE00E5B591 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25B74D5C23A5BDFE00E5B591 /* FoodDeliveryService.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25B74D5E23A5BDFE00E5B591 /* FoodDeliveryService */ = {
+			isa = PBXGroup;
+			children = (
+				25B74D7D23A5E34D00E5B591 /* Models */,
+				25B74D5F23A5BDFE00E5B591 /* AppDelegate.swift */,
+				25B74D6123A5BDFE00E5B591 /* SceneDelegate.swift */,
+				25B74D7723A5D7BF00E5B591 /* CircleImage.swift */,
+				25A0FB1623A6650A00B98BC9 /* ListOfDishesRow.swift */,
+				25A0FB4923A6913E00B98BC9 /* DishRow.swift */,
+				25B74D8123A5E5EB00E5B591 /* ProviderRow.swift */,
+				25A0FB4723A6900E00B98BC9 /* DishDetail.swift */,
+				25A0FB4523A68B3800B98BC9 /* DishList.swift */,
+				25B74D6323A5BDFE00E5B591 /* ProviderDetail.swift */,
+				25B74D9323A5FC1600E5B591 /* ProviderList.swift */,
+				25A0FB6B23A9701700B98BC9 /* CheckOut.swift */,
+				25A0FB6D23A9AC3300B98BC9 /* OrderView.swift */,
+				25A0FB6923A9604F00B98BC9 /* AppView.swift */,
+				25A0FB5F23A780AB00B98BC9 /* Comments */,
+				25A0FB5223A6E93900B98BC9 /* Profile */,
+				25B74D7E23A5E37700E5B591 /* Resources */,
+				25B74D6523A5BE0000E5B591 /* Assets.xcassets */,
+				25B74D6A23A5BE0000E5B591 /* LaunchScreen.storyboard */,
+				25B74D6D23A5BE0000E5B591 /* Info.plist */,
+				25B74D6723A5BE0000E5B591 /* Preview Content */,
+			);
+			path = FoodDeliveryService;
+			sourceTree = "<group>";
+		};
+		25B74D6723A5BE0000E5B591 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				25B74D6823A5BE0000E5B591 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		25B74D7D23A5E34D00E5B591 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				25B74D8523A5F20000E5B591 /* Provider.swift */,
+				25A0FB0623A65C3E00B98BC9 /* ListofDishes.swift */,
+				25A0FB1C23A6684A00B98BC9 /* Dish.swift */,
+				25A0FB6F23A9BB9500B98BC9 /* Comment.swift */,
+				25B74D8723A5F28900E5B591 /* Data.swift */,
+				25A0FB0423A6539000B98BC9 /* UserData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		25B74D7E23A5E37700E5B591 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				25B74D7F23A5E3EE00E5B591 /* providerData.json */,
+				25A0FB0823A65DFE00B98BC9 /* listOfDishesData.json */,
+				25A0FB1E23A6734700B98BC9 /* dishData.json */,
+				25A0FB2623A675C800B98BC9 /* Sapore Italiano */,
+				25A0FB2523A675C400B98BC9 /* Big Dog */,
+				25A0FB2423A675C200B98BC9 /* Хочу Мясо */,
+				25A0FB2323A675BE00B98BC9 /* Sushi Top */,
+				25A0FB2123A6759D00B98BC9 /* Gyros Original */,
+				25A0FB1523A6634400B98BC9 /* ListOfDishes */,
+				25A0FB0A23A6628A00B98BC9 /* Providers */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25B74D5B23A5BDFE00E5B591 /* FoodDeliveryService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25B74D7023A5BE0000E5B591 /* Build configuration list for PBXNativeTarget "FoodDeliveryService" */;
+			buildPhases = (
+				25B74D5823A5BDFE00E5B591 /* Sources */,
+				25B74D5923A5BDFE00E5B591 /* Frameworks */,
+				25B74D5A23A5BDFE00E5B591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodDeliveryService;
+			productName = FoodDeliveryService;
+			productReference = 25B74D5C23A5BDFE00E5B591 /* FoodDeliveryService.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25B74D5423A5BDFE00E5B591 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "Михаил Атоян";
+				TargetAttributes = {
+					25B74D5B23A5BDFE00E5B591 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 25B74D5723A5BDFE00E5B591 /* Build configuration list for PBXProject "FoodDeliveryService" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25B74D5323A5BDFE00E5B591;
+			productRefGroup = 25B74D5D23A5BDFE00E5B591 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25B74D5B23A5BDFE00E5B591 /* FoodDeliveryService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25B74D5A23A5BDFE00E5B591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A0FB3D23A67AC300B98BC9 /* Крем суши с лососем.jpg in Resources */,
+				25A0FB4223A67AC300B98BC9 /* Хотатте спайс гункан.jpg in Resources */,
+				25A0FB1123A6632F00B98BC9 /* desserts.jpg in Resources */,
+				25B74D9C23A60D8300E5B591 /* saporeItaliano.jpg in Resources */,
+				25A0FB4E23A69AA000B98BC9 /* Италия.jpg in Resources */,
+				25A0FB4123A67AC300B98BC9 /* Шаурма.jpg in Resources */,
+				25A0FB1223A6632F00B98BC9 /* drinks.jpg in Resources */,
+				25A0FB4423A67AC300B98BC9 /* Coca-cola.jpg in Resources */,
+				25B74D6C23A5BE0000E5B591 /* LaunchScreen.storyboard in Resources */,
+				25A0FB3C23A67AC300B98BC9 /* Тирамису.jpg in Resources */,
+				25A0FB1423A6632F00B98BC9 /* sushi.jpg in Resources */,
+				25A0FB1023A6632F00B98BC9 /* pizza.jpg in Resources */,
+				25A0FB5023A69AA000B98BC9 /* Аляска.jpg in Resources */,
+				25A0FB3623A67AC300B98BC9 /* Морс клюквенный.jpg in Resources */,
+				25B74D9D23A60D8300E5B591 /* sushiTop.jpg in Resources */,
+				25A0FB4F23A69AA000B98BC9 /* Сливочный лосось.jpg in Resources */,
+				25A0FB3723A67AC300B98BC9 /* Грибная.jpg in Resources */,
+				25A0FB3B23A67AC300B98BC9 /* Донат клубничный.jpg in Resources */,
+				25A0FB1323A6632F00B98BC9 /* rolls.jpg in Resources */,
+				25A0FB4323A67AC300B98BC9 /* Морс облепиховый.jpg in Resources */,
+				25B74D6923A5BE0000E5B591 /* Preview Assets.xcassets in Resources */,
+				25A0FB1F23A6734700B98BC9 /* dishData.json in Resources */,
+				25A0FB0923A65DFE00B98BC9 /* listOfDishesData.json in Resources */,
+				25A0FB3A23A67AC300B98BC9 /* Эби спайс гункан.jpg in Resources */,
+				25B74D9A23A60D8300E5B591 /* gyrosOriginal.jpg in Resources */,
+				25B74D9B23A60D8300E5B591 /* bigDog.jpg in Resources */,
+				25B74D9E23A60D8300E5B591 /* xочуМясо.jpg in Resources */,
+				25B74D8023A5E3EE00E5B591 /* providerData.json in Resources */,
+				25A0FB3E23A67AC300B98BC9 /* Пепперони.jpg in Resources */,
+				25B74D6623A5BE0000E5B591 /* Assets.xcassets in Resources */,
+				25A0FB3823A67AC300B98BC9 /* Донат шоколадный.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25B74D5823A5BDFE00E5B591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A0FB5823A6EA6700B98BC9 /* Profile.swift in Sources */,
+				25A0FB6C23A9701800B98BC9 /* CheckOut.swift in Sources */,
+				25B74D8823A5F28900E5B591 /* Data.swift in Sources */,
+				25A0FB5A23A6EC0A00B98BC9 /* ProfileSummary.swift in Sources */,
+				25A0FB0723A65C3E00B98BC9 /* ListofDishes.swift in Sources */,
+				25A0FB6A23A9604F00B98BC9 /* AppView.swift in Sources */,
+				25B74D8223A5E5EB00E5B591 /* ProviderRow.swift in Sources */,
+				25B74D6023A5BDFE00E5B591 /* AppDelegate.swift in Sources */,
+				25A0FB4A23A6913E00B98BC9 /* DishRow.swift in Sources */,
+				25A0FB5C23A6EF2200B98BC9 /* ProfileEditor.swift in Sources */,
+				25A0FB0523A6539000B98BC9 /* UserData.swift in Sources */,
+				25A0FB6E23A9AC3300B98BC9 /* OrderView.swift in Sources */,
+				25B74D8623A5F20000E5B591 /* Provider.swift in Sources */,
+				25B74D9423A5FC1600E5B591 /* ProviderList.swift in Sources */,
+				25B74D7823A5D7BF00E5B591 /* CircleImage.swift in Sources */,
+				25A0FB4823A6900E00B98BC9 /* DishDetail.swift in Sources */,
+				25A0FB6123A7810600B98BC9 /* CommentsHost.swift in Sources */,
+				25A0FB1723A6650A00B98BC9 /* ListOfDishesRow.swift in Sources */,
+				25A0FB5423A6E95B00B98BC9 /* ProfileHost.swift in Sources */,
+				25A0FB7023A9BB9500B98BC9 /* Comment.swift in Sources */,
+				25B74D6223A5BDFE00E5B591 /* SceneDelegate.swift in Sources */,
+				25B74D6423A5BDFE00E5B591 /* ProviderDetail.swift in Sources */,
+				25A0FB4623A68B3800B98BC9 /* DishList.swift in Sources */,
+				25A0FB1D23A6684A00B98BC9 /* Dish.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25B74D6A23A5BE0000E5B591 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25B74D6B23A5BE0000E5B591 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25B74D6E23A5BE0000E5B591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25B74D6F23A5BE0000E5B591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25B74D7123A5BE0000E5B591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FoodDeliveryService/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FoodDeliveryService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AtoM.FoodDeliveryService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		25B74D7223A5BE0000E5B591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FoodDeliveryService/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FoodDeliveryService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AtoM.FoodDeliveryService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25B74D5723A5BDFE00E5B591 /* Build configuration list for PBXProject "FoodDeliveryService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25B74D6E23A5BE0000E5B591 /* Debug */,
+				25B74D6F23A5BE0000E5B591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25B74D7023A5BE0000E5B591 /* Build configuration list for PBXNativeTarget "FoodDeliveryService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25B74D7123A5BE0000E5B591 /* Debug */,
+				25B74D7223A5BE0000E5B591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25B74D5423A5BDFE00E5B591 /* Project object */;
+}
